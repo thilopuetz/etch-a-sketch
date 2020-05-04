@@ -6,21 +6,21 @@ html, body {
 
 #grid-container {
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
+	height: 60vh;
+	width: 60vh;
+	border: 1px solid black;
+	margin: 0 auto;
 }
 
 .row_container_div {
 	display: flex;
 	flex-direction: row; 
-	width: 100%;
-	flex-wrap: wrap;
+	flex: 1 1 auto;
 }
 
 .row_div {
-	width: 100%;
-	height: 5px;
-	border: 1px solid black;
-	border-collapse: collapse;
+	flex: 1 1 auto;
 	
 }
 
