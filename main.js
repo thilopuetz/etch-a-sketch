@@ -52,7 +52,7 @@ document.addEventListener('DOMContentLoaded', function(){
 		while(grid_container.firstChild){
 			grid_container.removeChild(grid_container.lastChild);
 		}
-		let size = prompt();
+		let size = prompt("Type in a number for the grid size:");
 		initGrid(size);
 	})
 
